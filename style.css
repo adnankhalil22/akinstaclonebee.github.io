@@ -1,0 +1,194 @@
+body{
+padding: 0%;
+background-color: black;
+color: white;
+font-family:'Times New Roman', Times, serif;
+margin-left: 250px;
+margin-right: 450px;
+
+
+}
+
+
+nav{
+ position: fixed;
+ border-right: 2px solid rgba(255, 255, 255, 0.598);
+ margin-right: 50px;
+ font-size: 20px;
+ height: 100%;
+ width:250px;
+ top: 0;
+ left: 0;
+
+ 
+}
+nav ul{
+   padding: 0%;
+   margin: 0;
+   list-style: none;
+   padding-left: 10px;
+  
+
+}
+
+nav ul li{
+    display: flex;
+    padding: 20px;
+    gap: 20px;
+
+}
+
+
+
+li a{
+    text-decoration: none;
+    color:white;
+    
+    
+}
+li{
+    border-radius: 8px;
+}
+li:hover{
+   background-color: grey;
+   
+}
+
+
+.pic{
+    padding: 40px;
+    width: 50%;
+    filter: brightness(11000);
+}
+.personal_prof{
+    display: flex;
+    gap: 10px;
+}
+
+.personal_prof img{
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    border: 2px solid grey;
+    margin-top: 16px;
+}
+.suggest{
+    display: flex;
+    gap: 70px;
+}
+
+.follow{
+    color: rgb(0, 132, 255);
+    font-size: 12px;
+}
+.suggest-profs{
+    display: flex;
+    gap: 70px;
+}
+.insta{
+    color: grey;
+    font-size: 10px;
+}
+.right-nav{
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 400px; 
+    height: 100%;
+    background-color: #000000;
+    font-size: 18px;
+    margin-left: 50px;
+}
+
+
+.story-img img{
+    width: 55px;
+    height: 55px;
+    border-radius: 50px;
+}
+.story-img{
+    background: linear-gradient(to top, rgb(255, 187, 0), transparent), /* Top gradient */
+    linear-gradient(to bottom, rgb(163, 0, 212), transparent);
+    padding: 3px;
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+}
+.story{
+    justify-content: center;
+    align-items: center;
+    margin: 20px auto;
+}
+.story p{
+    margin-left: 4px;
+    font-size: 14px;
+}
+.stories-nav{
+    display: flex;
+    gap: 20px;
+}
+.container{
+    margin:0 90px;
+}
+.acc-details{
+    display: flex;
+}
+.post-img img{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+.post-name{
+    display: flex;
+    gap: 20px;
+}
+.date_p{
+    color: grey;
+    margin-right: 410px;
+}
+.image-post{
+    border-radius: 4px;
+    margin-top: 10px;
+    width: 50%;
+    
+}
+.sharkeko{
+    margin-left:465px ;
+}
+.caption p{
+    padding: 0px;
+    margin: 0px;
+}
+.add-cmnt svg{
+    width: 12px;
+}
+.add-cmnt{
+    width: 600px;
+    display: flex;
+    gap: 451px;
+    border-bottom: 1px solid grey;
+}
+.post{
+    margin-top:70px;
+}
+.container{
+    margin: 70 auto;
+}
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
